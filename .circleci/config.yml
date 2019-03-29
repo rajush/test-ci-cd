@@ -11,7 +11,7 @@ jobs:
       # specify the version you desire here
       - image: circleci/python:2.7-node
     environment:
-      AWS_REGION: us-east-1
+      AWS_REGION: us-east-2
     steps:
       - checkout
       - run: npm install
