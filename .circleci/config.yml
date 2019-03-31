@@ -58,7 +58,7 @@ workflows:
               only: master
   build-staging:
     jobs:
-      - build:
+      - build-staging:
           filters:
             branches:
               only: develop
